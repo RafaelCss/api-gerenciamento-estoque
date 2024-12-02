@@ -1,0 +1,73 @@
+# Sistema operacional
+*.DS_Store
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Diretórios do Visual Studio
+.vs/
+.idea/
+.vscode/
+
+# Arquivos de Build
+bin/
+obj/
+[Bb]uild/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos temporários, cache e logs
+*.log
+*.tmp
+*.temp
+*.bak
+*.pid
+*.gz
+
+# Dependências
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos de configuração locais
+appsettings.json
+appsettings.Local.json
+
+# Arquivos gerados pelo sistema
+*.Generated.cs
+*.gen.cs
+*.Designer.cs
+
+# Certificados locais
+*.pfx
+*.cer
+*.key
+
+# Dados do Docker
+**/docker-compose.override.yml
+**/docker-compose.*.yml
+**/Dockerfile
+**/docker-compose.yml
+
+# Dados sensíveis
+.env
+
+# Testes e relatórios
+TestResults/
+*.trx
+*.coverage
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+coverage*.lcov
+
+# Ferramentas
+_RESHARPER*/
+JetBrains.ReSharper.*
+*.DotSettings.user
