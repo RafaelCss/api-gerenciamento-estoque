@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\GerenciadorEstoque\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\gerenciadorestoque\\gerenciadorestoque.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\gerenciadorestoque\\dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\gerenciadorestoque\\gerenciadorestoque.api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projetos\\GerenciadorEstoque\\GerenciadorEstoque.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\Dockerfile",
+              "ToolTip": "C:\\Projetos\\GerenciadorEstoque\\GerenciadorEstoque.Api\\Dockerfile",
+              "RelativeToolTip": "GerenciadorEstoque.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-02T10:59:47.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dominio",
+              "DocumentMoniker": "C:\\Projetos\\GerenciadorEstoque\\Dominio\\Dominio.csproj",
+              "RelativeDocumentMoniker": "Dominio\\Dominio.csproj",
+              "ToolTip": "C:\\Projetos\\GerenciadorEstoque\\Dominio\\Dominio.csproj",
+              "RelativeToolTip": "Dominio\\Dominio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-02T10:59:38.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Api",
+              "DocumentMoniker": "C:\\Projetos\\GerenciadorEstoque\\GerenciadorEstoque.Api\\Api.csproj",
+              "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\Api.csproj",
+              "ToolTip": "C:\\Projetos\\GerenciadorEstoque\\GerenciadorEstoque.Api\\Api.csproj",
+              "RelativeToolTip": "GerenciadorEstoque.Api\\Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-02T10:59:21.268Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
