@@ -35,7 +35,7 @@ project.fragment.lock.json
 artifacts/
 
 # Arquivos de configuração locais
-appsettings.json
+appsettings.Development.json
 appsettings.Local.json
 
 # Arquivos gerados pelo sistema
