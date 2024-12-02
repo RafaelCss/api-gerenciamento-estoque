@@ -36,7 +36,7 @@ artifacts/
 
 # Arquivos de configuração locais
 appsettings.Development.json
-appsettings.Local.json
+appsettings.local.json
 
 # Arquivos gerados pelo sistema
 *.Generated.cs
