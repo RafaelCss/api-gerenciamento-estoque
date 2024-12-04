@@ -1,6 +1,6 @@
 @GerenciadorEstoque.Api_HostAddress = http://localhost:5053
 
-GET {{GerenciadorEstoque.Api_HostAddress}}/weatherforecast/
+GET {{GerenciadorEstoque.Api_HostAddress}}/api/produto
 Accept: application/json
 
 ###
