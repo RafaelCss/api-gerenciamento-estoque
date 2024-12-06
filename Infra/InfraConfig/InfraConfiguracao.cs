@@ -20,7 +20,7 @@ public static class InfraConfiguracao
         services.AddDbContext<AppContexto>(options =>
             options.UseMySql(
                 configuration.GetConnectionString("DefaultConnection") ,
-                new MySqlServerVersion(new Version(8 , 0 , 33)) // Substitua pela versão do seu MySQL
+               ServerVersion.AutoDetect(configuration.GetConnectionString("DefaultConnection"))
             )
             .EnableSensitiveDataLogging()
             .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
