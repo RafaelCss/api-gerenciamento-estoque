@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Projetos\\api-gerenciamento-estoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\api-gerenciamento-estoque\\Infra\\Migrations\\20241206124800_Criar-Tabela-Produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infra\\Migrations\\20241206124800_Criar-Tabela-Produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\ef\\contexto\\appcontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\ef\\contexto\\appcontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\infraconfig\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\infraconfig\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\ef\\configuracao\\produtoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\ef\\configuracao\\produtoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241206124800_Criar-Tabela-Produtos.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\Migrations\\20241206124800_Criar-Tabela-Produtos.cs",
-              "RelativeDocumentMoniker": "Infra\\Migrations\\20241206124800_Criar-Tabela-Produtos.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\Migrations\\20241206124800_Criar-Tabela-Produtos.cs",
-              "RelativeToolTip": "Infra\\Migrations\\20241206124800_Criar-Tabela-Produtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:48:00.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppContexto.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\EF\\Contexto\\AppContexto.cs",
-              "RelativeDocumentMoniker": "Infra\\EF\\Contexto\\AppContexto.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\EF\\Contexto\\AppContexto.cs",
-              "RelativeToolTip": "Infra\\EF\\Contexto\\AppContexto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:24:47.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "InfraConfiguracao.cs",
               "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\InfraConfiguracao.cs",
               "RelativeDocumentMoniker": "Infra\\InfraConfig\\InfraConfiguracao.cs",
               "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\InfraConfiguracao.cs",
               "RelativeToolTip": "Infra\\InfraConfig\\InfraConfiguracao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:23:39.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.local.json",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\appsettings.local.json",
-              "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\appsettings.local.json",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\appsettings.local.json",
-              "RelativeToolTip": "GerenciadorEstoque.Api\\appsettings.local.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-06T12:17:24.683Z",
+              "WhenOpened": "2024-12-06T12:57:16.421Z",
               "EditorCaption": ""
             },
             {
@@ -96,22 +41,9 @@
               "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
               "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAvwBkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:15:45.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProdutoConfiguration.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\EF\\Configuracao\\ProdutoConfiguration.cs",
-              "RelativeDocumentMoniker": "Infra\\EF\\Configuracao\\ProdutoConfiguration.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\EF\\Configuracao\\ProdutoConfiguration.cs",
-              "RelativeToolTip": "Infra\\EF\\Configuracao\\ProdutoConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:13:53.327Z",
+              "WhenOpened": "2024-12-06T12:56:17.31Z",
               "EditorCaption": ""
             }
           ]
