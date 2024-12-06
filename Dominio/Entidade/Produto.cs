@@ -9,14 +9,6 @@ public class Produto : EntidadeBase
     {
     }
 
-
-    public required string Nome { get; set; }
-    public required string Descricao { get; set; }
-    public decimal Preco { get; set; }
-    public int QuantidadeEstoque { get; set; }
-
-
-    
     public Produto(string nome , string descricao , decimal preco , int quantidadeEstoque)
     {
         Nome = nome;
@@ -24,6 +16,14 @@ public class Produto : EntidadeBase
         Preco = preco;
         AtualizarEstoque(quantidadeEstoque);
     }
+
+    public string Nome { get; set; }
+    public string Descricao { get; set; }
+    public decimal Preco { get; set; }
+    public int QuantidadeEstoque { get; set; }
+
+
+    
 
     public Produto AtualizarEstoque(int quantidade)
     {
