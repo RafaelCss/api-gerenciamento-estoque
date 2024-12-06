@@ -1,10 +1,11 @@
-﻿using Infra.EF;
+﻿using Infra.EF.Context;
 using Infra.Repositorio;
 using Infra.Repositorio.Interface;
-using Infra.UnitOfWork.Interfaces;
+using Infra.UOW.Interfaces;
 
 
-namespace Infra.UnitOfWork;
+
+namespace Infra.UOW;
 
 public class UnitOfWork : IUnitOfWork
 {

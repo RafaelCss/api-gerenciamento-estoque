@@ -1,7 +1,7 @@
 ﻿
 using Infra.Repositorio.Interface;
 
-namespace Infra.UnitOfWork.Interfaces;
+namespace Infra.UOW.Interfaces;
 
 public interface IUnitOfWork : IDisposable
 {
