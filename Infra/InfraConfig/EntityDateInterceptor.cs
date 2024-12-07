@@ -33,16 +33,19 @@ public class EntityDateInterceptor : SaveChangesInterceptor
             .Entries<EntidadeBase>()
             .Where(e => e.State == EntityState.Added || e.State == EntityState.Modified);
 
+        var brasiliaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time");
+
         foreach (var entry in entries)
         {
             var entity = entry.Entity;
+            var currentTimeInBrazil = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow , brasiliaTimeZone);
 
             if (entry.State == EntityState.Added)
             {
-                entity.DataCriacao = DateTime.UtcNow;
+                entity.DataCriacao = currentTimeInBrazil;
             }
 
-            entity.DataAtualizacao = DateTime.UtcNow;
+            entity.DataAtualizacao = currentTimeInBrazil;
         }
     }
 }
