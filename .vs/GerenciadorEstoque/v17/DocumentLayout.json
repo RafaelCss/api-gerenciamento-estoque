@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Projetos\\api-gerenciamento-estoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\infraconfig\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\infraconfig\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\infraconfig\\entitydateinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\infraconfig\\entitydateinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InfraConfiguracao.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\InfraConfiguracao.cs",
-              "RelativeDocumentMoniker": "Infra\\InfraConfig\\InfraConfiguracao.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\InfraConfiguracao.cs",
-              "RelativeToolTip": "Infra\\InfraConfig\\InfraConfiguracao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABfAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EntityDateInterceptor.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\EntityDateInterceptor.cs",
+              "RelativeDocumentMoniker": "Infra\\InfraConfig\\EntityDateInterceptor.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\EntityDateInterceptor.cs",
+              "RelativeToolTip": "Infra\\InfraConfig\\EntityDateInterceptor.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:57:16.421Z",
+              "WhenOpened": "2024-12-07T13:52:50.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
               "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAvwB0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:56:17.31Z",
+              "WhenOpened": "2024-12-07T13:50:10.9Z",
               "EditorCaption": ""
             }
           ]

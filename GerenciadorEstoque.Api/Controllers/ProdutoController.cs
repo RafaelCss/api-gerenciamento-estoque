@@ -21,8 +21,9 @@ namespace Api.Controllers
         {
             var servicoRepository =  _unitOfWork.Repository<Produto>();
 
-              servicoRepository.AddAsync(new Produto("teste", "teste", 300,20));
+            var produto =  servicoRepository.GetByIdAsync(Guid.Parse("42edd8e8-51f9-4b33-a306-0f67af353a88")).Result;
 
+            servicoRepository.Update(produto);
               _unitOfWork.SaveChanges();
 
             return Ok(new { id });
