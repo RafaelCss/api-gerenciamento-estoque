@@ -15,8 +15,8 @@ public static class InfraConfiguracao
     {
         services.AddScoped<EntityDateInterceptor>();
         services.AddScoped<IUnitOfWork , UnitOfWork>();
-
-        services.AddScoped(typeof(IRepository<>) , typeof(Repository<>));
+        services.AddScoped(typeof(IContextoLeitura<>) , typeof(ContextoLeitura<>));
+        services.AddScoped(typeof(IRepositorio<>) , typeof(Repositorio<>));
         services.AddDbContext<AppContexto>(options =>
             options.UseMySql(
                 configuration.GetConnectionString("DefaultConnection") ,

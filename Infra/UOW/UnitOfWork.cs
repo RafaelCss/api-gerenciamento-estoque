@@ -1,4 +1,6 @@
-﻿using Infra.EF.Context;
+﻿
+using Dominio.Entidades.Root;
+using Infra.EF.Context;
 using Infra.Repositorio;
 using Infra.Repositorio.Interface;
 using Infra.UOW.Interfaces;
@@ -18,16 +20,16 @@ public class UnitOfWork : IUnitOfWork
         _repositories = new Dictionary<Type , object>();
     }
 
-    public IRepository<T> Repository<T>() where T : class
+    public IRepositorio<T> Repositorio<T>() where T : AggregateRoot
     {
         var type = typeof(T);
         if (!_repositories.ContainsKey(type))
         {
-            var repositoryType = typeof(Repository<>).MakeGenericType(type);
+            var repositoryType = typeof(Repositorio<>).MakeGenericType(type);
             _repositories[type] = Activator.CreateInstance(repositoryType , _context);
         }
 
-        return (IRepository<T>)_repositories[type];
+        return (IRepositorio<T>)_repositories[type];
     }
 
     public async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)

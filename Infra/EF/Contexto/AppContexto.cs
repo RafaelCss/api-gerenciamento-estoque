@@ -1,4 +1,4 @@
-﻿using Dominio.Entidade;
+﻿using Dominio.Entidades;
 using Infra.Configuracao;
 using Microsoft.EntityFrameworkCore;
 

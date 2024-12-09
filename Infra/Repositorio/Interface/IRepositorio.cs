@@ -1,6 +1,10 @@
-﻿namespace Infra.Repositorio.Interface;
+﻿
 
-public interface IRepository<T> where T : class
+using Dominio.Entidades.Root;
+
+namespace Infra.Repositorio.Interface;
+
+public interface IRepositorio<T> where T : AggregateRoot
 {
     Task<T?> GetByIdAsync(object id);
     Task<IEnumerable<T>> GetAllAsync();

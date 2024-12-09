@@ -1,7 +1,6 @@
-﻿namespace Dominio.Entidade.Base;
+﻿namespace Dominio.Entidades.Base;
 
-
-public class EntidadeBase
+public class Entidade
 {
     public Guid Id { get; set; } = Guid.NewGuid();
 

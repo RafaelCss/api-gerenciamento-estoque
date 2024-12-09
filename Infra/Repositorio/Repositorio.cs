@@ -1,15 +1,18 @@
-﻿using Infra.Repositorio.Interface;
+﻿
+
+using Dominio.Entidades.Root;
+using Infra.Repositorio.Interface;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace Infra.Repositorio;
 
-public class Repository<T> : IRepository<T> where T : class
+public class Repositorio<T> : IRepositorio<T> where T : AggregateRoot
 {
     private readonly DbContext _context;
     private readonly DbSet<T> _dbSet;
 
-    public Repository(DbContext context)
+    public Repositorio(DbContext context)
     {
         _context = context;
         _dbSet = _context.Set<T>();

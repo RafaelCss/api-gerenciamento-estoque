@@ -1,8 +1,11 @@
-﻿using Dominio.Entidade.Base;
+﻿
 
-namespace Dominio.Entidade;
+using Dominio.Entidades.Base;
+using Dominio.Entidades.Root;
 
-public class Produto : EntidadeBase
+namespace Dominio.Entidades;
+
+public class Produto : AggregateRoot
 {
     // construtor ef
     public Produto()
