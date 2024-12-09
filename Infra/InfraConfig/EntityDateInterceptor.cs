@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
-using Dominio.Entidade.Base;
+using Dominio.Entidades.Root;
 
 
 namespace Infra.Configuracao;
@@ -30,7 +30,7 @@ public class EntityDateInterceptor : SaveChangesInterceptor
             return;
 
         var entries = context.ChangeTracker
-            .Entries<EntidadeBase>()
+            .Entries<AggregateRoot>()
             .Where(e => e.State == EntityState.Added || e.State == EntityState.Modified);
 
         var brasiliaTimeZone = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time");

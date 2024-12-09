@@ -1,4 +1,6 @@
-﻿using Dominio.Entidade;
+﻿
+using Dominio.Entidades;
+using Infra.Repositorio.Interface;
 using Infra.UOW.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,25 +10,24 @@ namespace Api.Controllers
     [ApiController]
     public class ProdutoController : ControllerBase
     {
+        private readonly IContextoLeitura<Produto> _contexto;
         private readonly IUnitOfWork _unitOfWork;
 
-        public ProdutoController(IUnitOfWork unitOfWork)
+        public ProdutoController(IContextoLeitura<Produto> contexto, IUnitOfWork unitOfWork)
         {
+            _contexto = contexto;
             _unitOfWork = unitOfWork;
         }
 
 
         [HttpGet]
-        public  IActionResult BuscarProdutosAsync([FromQuery] int id)
+        public  IActionResult BuscarProdutosAsync([FromQuery] Guid id)
         {
-            var servicoRepository =  _unitOfWork.Repository<Produto>();
+             var servicoRepository = _contexto.Query().FirstOrDefault(p => p.Id.Equals(id));
 
-            var produto =  servicoRepository.GetByIdAsync(Guid.Parse("42edd8e8-51f9-4b33-a306-0f67af353a88")).Result;
+            //var servicoRepository = _unitOfWork.Repositorio<Produto>().GetByIdAsync(id).Result;
 
-            servicoRepository.Update(produto);
-              _unitOfWork.SaveChanges();
-
-            return Ok(new { id });
+            return Ok(servicoRepository);
         }
     }
 }
