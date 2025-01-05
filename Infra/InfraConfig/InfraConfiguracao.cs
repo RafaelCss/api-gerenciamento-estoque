@@ -1,8 +1,7 @@
-﻿using Infra.EF.Context;
+﻿using Dominio.Interface;
+using Infra.EF.Context;
 using Infra.Repositorio;
-using Infra.Repositorio.Interface;
 using Infra.UOW;
-using Infra.UOW.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

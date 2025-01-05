@@ -2,7 +2,7 @@
 
 using Dominio.Entidades.Root;
 
-namespace Infra.Repositorio.Interface;
+namespace Dominio.Interface;
 
 public interface IRepositorio<T> where T : AggregateRoot
 {

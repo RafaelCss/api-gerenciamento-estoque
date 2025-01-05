@@ -1,6 +1,6 @@
 ﻿using Dominio.Entidades.Base;
+using Dominio.Interface;
 using Infra.EF.Context;
-using Infra.Repositorio.Interface;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infra.Repositorio;

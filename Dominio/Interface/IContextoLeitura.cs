@@ -1,6 +1,6 @@
 ﻿using Dominio.Entidades.Base;
 
-namespace Infra.Repositorio.Interface
+namespace Dominio.Interface
 {
     public interface IContextoLeitura<T> where T : Entidade
     {
