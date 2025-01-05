@@ -1,3 +1,4 @@
+using Dominio.DominioConfig;
 using Infra.Configuracao;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfraConfiguracao(builder.Configuration);
+builder.Services.AddDominioConfiguracao(builder.Configuration);
 
 var app = builder.Build();
 

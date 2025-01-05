@@ -1,9 +1,8 @@
 ﻿
 using Dominio.Entidades.Root;
+using Dominio.Interface;
 using Infra.EF.Context;
 using Infra.Repositorio;
-using Infra.Repositorio.Interface;
-using Infra.UOW.Interfaces;
 
 
 
@@ -46,4 +45,5 @@ public class UnitOfWork : IUnitOfWork
     {
         _context.Dispose();
     }
+
 }

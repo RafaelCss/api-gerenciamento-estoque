@@ -1,9 +1,8 @@
 ﻿
 
 using Dominio.Entidades.Root;
-using Infra.Repositorio.Interface;
 
-namespace Infra.UOW.Interfaces;
+namespace Dominio.Interface;
 
 public interface IUnitOfWork : IDisposable
 {

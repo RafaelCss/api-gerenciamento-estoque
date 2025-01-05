@@ -1,7 +1,7 @@
 ﻿
 
 using Dominio.Entidades.Root;
-using Infra.Repositorio.Interface;
+using Dominio.Interface;
 using Microsoft.EntityFrameworkCore;
 
 
