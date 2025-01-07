@@ -1,6 +1,8 @@
-﻿namespace Dominio.Entidades.Base;
+﻿using Flunt.Notifications;
 
-public class Entidade
+namespace Dominio.Entidades.Base;
+
+public class Entidade : Notifiable<Notification>
 {
     public Guid Id { get; set; } = Guid.NewGuid();
 

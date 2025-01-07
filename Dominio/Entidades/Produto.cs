@@ -1,7 +1,9 @@
 ﻿
 
+using Dominio.Comandos.Cadastro;
 using Dominio.Entidades.Base;
 using Dominio.Entidades.Root;
+using Flunt.Validations;
 
 namespace Dominio.Entidades;
 
@@ -26,11 +28,19 @@ public class Produto : AggregateRoot
     public int QuantidadeEstoque { get; set; }
 
 
-    
+
 
     public Produto AtualizarEstoque(int quantidade)
     {
         QuantidadeEstoque = quantidade;
+
+
+        //Exemplo Notificação na entidade -- 
+        AddNotifications(new Contract<Produto>()
+            .Requires()
+            .IsNotNullOrWhiteSpace(Nome , nameof(Nome) , "O nome não pode ser vazio.")
+            .IsEmail(Nome , nameof(Nome) , "O e-mail fornecido é inválido.")
+        );
 
         return this;
     }
