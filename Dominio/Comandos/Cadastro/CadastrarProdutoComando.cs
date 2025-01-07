@@ -15,12 +15,6 @@ public class CadastrarProdutoComando : Comando<Guid>
     {
         Nome = nome;
         Email = email;
-
-        AddNotifications(new Flunt.Validations.Contract<CadastrarProdutoComando>()
-            .Requires()
-            .IsNotNullOrWhiteSpace(Nome , nameof(Nome) , "O nome não pode ser vazio.")
-            .IsEmail(Email , nameof(Email) , "O e-mail fornecido é inválido.")
-        );
     }
 
 
@@ -59,6 +53,11 @@ public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoCom
 
 
         var produto = new Produto("Teste Comando"," testando", 30 , 20);
+
+        if (!produto.IsValid)
+        {
+            return CriarResposta(produto.Notifications);
+        }
 
         await _unitOfWork.Repositorio<Produto>().AddAsync(produto);
 

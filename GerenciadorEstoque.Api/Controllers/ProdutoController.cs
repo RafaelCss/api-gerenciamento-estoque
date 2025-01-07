@@ -19,7 +19,7 @@ public class ProdutoController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CadastrarProdutosAsync(CancellationToken cancellationToken)
     {
-        var resposta = await CadastrarProdutoComando.ExecutarAsync(_mediator , "teste" , "teste@teste.com.br" , CancellationToken.None);
+        var resposta = await CadastrarProdutoComando.ExecutarAsync(_mediator , "teste" , "" , CancellationToken.None);
         return Ok(resposta);
     }
 }
