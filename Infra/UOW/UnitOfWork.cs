@@ -31,7 +31,7 @@ public class UnitOfWork : IUnitOfWork
         return (IRepositorio<T>)_repositories[type];
     }
 
-    public async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    public async Task<int> SalvarAsync(CancellationToken cancellationToken = default)
     {
         return await _context.SaveChangesAsync(cancellationToken);
     }

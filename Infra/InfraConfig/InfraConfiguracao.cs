@@ -21,7 +21,7 @@ public static class InfraConfiguracao
                 configuration.GetConnectionString("DefaultConnection") ,
                ServerVersion.AutoDetect(configuration.GetConnectionString("DefaultConnection"))
             )
-            .EnableSensitiveDataLogging()
+            .EnableSensitiveDataLogging(false)
             .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
         );
 

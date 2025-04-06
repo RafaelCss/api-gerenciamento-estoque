@@ -9,12 +9,14 @@ namespace Dominio.Comandos.Cadastro;
 public class CadastrarProdutoComando : Comando<Guid>
 {
     public string Nome { get; private set; }
-    public string Email { get; private set; }
+    public string Descricao { get; private set; }
+    public string CodigoBarras { get; private set; }
 
-    public CadastrarProdutoComando(string nome , string email)
+    public CadastrarProdutoComando(string nome , string decricao, string codigoBarras)
     {
         Nome = nome;
-        Email = email;
+        CodigoBarras = codigoBarras;
+        Descricao = decricao;
     }
 
 
@@ -29,10 +31,11 @@ public class CadastrarProdutoComando : Comando<Guid>
     public static async Task<Resposta<Guid>> ExecutarAsync(
         IMediator mediator ,
         string nome ,
-        string email ,
+        string decricao ,
+        string codigoBarras ,
         CancellationToken cancellationToken)
     {
-        var comando = new CadastrarProdutoComando(nome , email);
+        var comando = new CadastrarProdutoComando(nome , decricao, codigoBarras);
         return await mediator.Send(comando , cancellationToken);
     }
 }
@@ -52,7 +55,7 @@ public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoCom
             return CriarResposta(request.Notifications);
 
 
-        var produto = new Produto("Teste Comando"," testando", 30 , 20);
+        var produto = new Produto(request.Nome,request.Descricao, request.CodigoBarras);
 
         if (!produto.IsValid)
         {
@@ -61,7 +64,7 @@ public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoCom
 
         await _unitOfWork.Repositorio<Produto>().AddAsync(produto);
 
-        if (await _unitOfWork.SaveChangesAsync(cancellationToken) < 0)
+        if (await _unitOfWork.SalvarAsync(cancellationToken) < 0)
         {
             request.AddNotification("Commit" , "Erro ao salvar os dados no banco.");
             return CriarResposta(request.Notifications);

@@ -22,11 +22,16 @@ namespace Infra.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
-            modelBuilder.Entity("Dominio.Entidade.Produto", b =>
+            modelBuilder.Entity("Dominio.Entidades.Produto", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
+
+                    b.Property<string>("CodigoBarras")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
 
                     b.Property<DateTime>("DataAtualizacao")
                         .HasColumnType("datetime(6)");
@@ -43,13 +48,6 @@ namespace Infra.Migrations
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("varchar(200)");
-
-                    b.Property<decimal>("Preco")
-                        .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("QuantidadeEstoque")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

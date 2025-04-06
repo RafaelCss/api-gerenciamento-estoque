@@ -1,8 +1,4 @@
-﻿
-
-using Dominio.Comandos.Cadastro;
-using Dominio.Entidades.Base;
-using Dominio.Entidades.Root;
+﻿using Dominio.Entidades.Root;
 using Flunt.Validations;
 
 namespace Dominio.Entidades;
@@ -14,34 +10,61 @@ public class Produto : AggregateRoot
     {
     }
 
-    public Produto(string nome , string descricao , decimal preco , int quantidadeEstoque)
+    public Produto(string nome , string descricao , string codigoBarras)
     {
-        Nome = nome;
-        Descricao = descricao;
-        Preco = preco;
-        AtualizarEstoque(quantidadeEstoque);
+        AdicionarNomeProduto(nome);
+        AdicionarDescricaoProduto(descricao);
+        AdicionarCodigoBarrasProduto(codigoBarras);
     }
 
-    public string Nome { get; set; }
-    public string Descricao { get; set; }
-    public decimal Preco { get; set; }
-    public int QuantidadeEstoque { get; set; }
+    public string Nome { get; private set; }
+    public string Descricao { get; private set; }
+    public string CodigoBarras { get; private set; }
 
 
-
-
-    public Produto AtualizarEstoque(int quantidade)
+    public Produto AdicionarNomeProduto(string nome)
     {
-        QuantidadeEstoque = quantidade;
+        Nome = nome;
 
-
-        //Exemplo Notificação na entidade -- 
         AddNotifications(new Contract<Produto>()
             .Requires()
             .IsNotNullOrWhiteSpace(Nome , nameof(Nome) , "O nome não pode ser vazio.")
-            .IsEmail(Nome , nameof(Nome) , "O e-mail fornecido é inválido.")
         );
 
         return this;
+    }
+
+    public Produto AdicionarDescricaoProduto(string descricao)
+    {
+        Descricao = descricao;
+
+        AddNotifications(new Contract<Produto>()
+            .Requires()
+            .IsNotNullOrWhiteSpace(Descricao , nameof(Descricao) , "A Descricao não pode ser vazia.")
+        );
+
+        return this;
+    }
+
+
+    public Produto AdicionarCodigoBarrasProduto(string codigoBarras)
+    {
+
+        CodigoBarras = codigoBarras;
+        AddNotifications(new Contract<Produto>()
+            .Requires()
+            .IsNotNullOrWhiteSpace(CodigoBarras , nameof(CodigoBarras) , "O Codigo de Barras não pode ser vazio.")
+        );
+
+        return this;
+    }
+
+    public Produto Modificar(string nome , string descricao , string codigoBarras)
+    {
+        AdicionarNomeProduto(nome);
+        AdicionarDescricaoProduto(descricao);
+        AdicionarCodigoBarrasProduto(codigoBarras);
+
+        return this;    
     }
 }
