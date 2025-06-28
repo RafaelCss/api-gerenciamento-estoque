@@ -1,5 +1,3 @@
-using Dominio.DominioConfig;
-using Infra.Configuracao;
 
 var builder = WebApplication.CreateBuilder(args);
 

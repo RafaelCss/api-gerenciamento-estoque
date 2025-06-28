@@ -1,16 +1,16 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Dominio;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 
-namespace Dominio.DominioConfig;
+namespace Microsoft.Extensions.DependencyInjection;
 
 public static class DominioConfiguracao
 {
     public static IServiceCollection AddDominioConfiguracao(this IServiceCollection services , IConfiguration configuration)
     {
-        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
-
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Metadado.GetAssembly()));
         return services;
     }
 }

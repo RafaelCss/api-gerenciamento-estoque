@@ -1,12 +1,12 @@
 ﻿using Dominio.Interface;
+using Infra.Configuracao;
 using Infra.EF.Context;
 using Infra.Repositorio;
 using Infra.UOW;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace Infra.Configuracao;
+namespace Microsoft.Extensions.DependencyInjection;
 
 public static class InfraConfiguracao
 {

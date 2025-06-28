@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "C:\\Projetos\\api-gerenciamento-estoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\infraconfig\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\infraconfig\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\metadado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\metadado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\metadado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\metadado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\interface\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interface\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|c:\\projetos\\api-gerenciamento-estoque\\ioc\\dominio\\dominioconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|solutionrelative:ioc\\dominio\\dominioconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\entidades\\campopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\campopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|c:\\projetos\\api-gerenciamento-estoque\\ioc\\infra\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|solutionrelative:ioc\\infra\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\ef\\configuracao\\produtoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\ef\\configuracao\\produtoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\entidades\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\entidades\\valorcampopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\valorcampopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\repositorio\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\repositorio\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\comandos\\cadastro\\cadastrarprodutocomando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\comandos\\cadastro\\cadastrarprodutocomando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\models\\request\\produtos\\produtosrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\models\\request\\produtos\\produtosrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\interface\\iunitofwork .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interface\\iunitofwork .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,157 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutoConfiguration.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\EF\\Configuracao\\ProdutoConfiguration.cs",
-              "RelativeDocumentMoniker": "Infra\\EF\\Configuracao\\ProdutoConfiguration.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\EF\\Configuracao\\ProdutoConfiguration.cs",
-              "RelativeToolTip": "Infra\\EF\\Configuracao\\ProdutoConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T01:48:31.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ValorCampoPersonalizado.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Entidades\\ValorCampoPersonalizado.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\ValorCampoPersonalizado.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Entidades\\ValorCampoPersonalizado.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\ValorCampoPersonalizado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T22:25:37.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CampoPersonalizado.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Entidades\\CampoPersonalizado.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\CampoPersonalizado.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Entidades\\CampoPersonalizado.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\CampoPersonalizado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T22:19:44.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InfraConfiguracao.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\InfraConfiguracao.cs",
-              "RelativeDocumentMoniker": "Infra\\InfraConfig\\InfraConfiguracao.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\InfraConfiguracao.cs",
-              "RelativeToolTip": "Infra\\InfraConfig\\InfraConfiguracao.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Title": "Metadado.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\Metadado.cs",
+              "RelativeDocumentMoniker": "Infra\\Metadado.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\Metadado.cs",
+              "RelativeToolTip": "Infra\\Metadado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T22:22:22.525Z",
+              "WhenOpened": "2025-06-27T01:12:04.696Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Entidades\\Produto.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Produto.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Entidades\\Produto.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T22:04:41.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProdutosRequestModel.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Models\\Request\\Produtos\\ProdutosRequestModel.cs",
-              "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\Models\\Request\\Produtos\\ProdutosRequestModel.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Models\\Request\\Produtos\\ProdutosRequestModel.cs",
-              "RelativeToolTip": "GerenciadorEstoque.Api\\Models\\Request\\Produtos\\ProdutosRequestModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T22:00:20.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepositorio.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Interface\\IRepositorio.cs",
-              "RelativeDocumentMoniker": "Dominio\\Interface\\IRepositorio.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Interface\\IRepositorio.cs",
-              "RelativeToolTip": "Dominio\\Interface\\IRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T23:44:31.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Repositorio.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\Repositorio\\Repositorio.cs",
-              "RelativeDocumentMoniker": "Infra\\Repositorio\\Repositorio.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\Repositorio\\Repositorio.cs",
-              "RelativeToolTip": "Infra\\Repositorio\\Repositorio.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwB4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T23:44:49.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUnitOfWork .cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Interface\\IUnitOfWork .cs",
-              "RelativeDocumentMoniker": "Dominio\\Interface\\IUnitOfWork .cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Interface\\IUnitOfWork .cs",
-              "RelativeToolTip": "Dominio\\Interface\\IUnitOfWork .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T23:43:55.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CadastrarProdutoComando.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Comandos\\Cadastro\\CadastrarProdutoComando.cs",
-              "RelativeDocumentMoniker": "Dominio\\Comandos\\Cadastro\\CadastrarProdutoComando.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Comandos\\Cadastro\\CadastrarProdutoComando.cs",
-              "RelativeToolTip": "Dominio\\Comandos\\Cadastro\\CadastrarProdutoComando.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAewDAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T23:41:37.642Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\UOW\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infra\\UOW\\UnitOfWork.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\UOW\\UnitOfWork.cs",
-              "RelativeToolTip": "Infra\\UOW\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAVAAAAAAAAAA==",
+              "Title": "Metadado.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Metadado.cs",
+              "RelativeDocumentMoniker": "Dominio\\Metadado.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Metadado.cs",
+              "RelativeToolTip": "Dominio\\Metadado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T23:41:01.985Z",
+              "WhenOpened": "2025-06-27T01:10:19.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "InfraConfiguracao.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Infra\\InfraConfiguracao.cs",
+              "RelativeDocumentMoniker": "Ioc\\Infra\\InfraConfiguracao.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Infra\\InfraConfiguracao.cs",
+              "RelativeToolTip": "Ioc\\Infra\\InfraConfiguracao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:00:20.054Z"
+              "WhenOpened": "2025-06-27T00:51:21.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DominioConfiguracao.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Dominio\\DominioConfiguracao.cs",
+              "RelativeDocumentMoniker": "Ioc\\Dominio\\DominioConfiguracao.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Dominio\\DominioConfiguracao.cs",
+              "RelativeToolTip": "Ioc\\Dominio\\DominioConfiguracao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T00:49:49.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Program.cs",
+              "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\Program.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Program.cs",
+              "RelativeToolTip": "GerenciadorEstoque.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T00:45:14.242Z",
+              "EditorCaption": ""
             }
           ]
         }

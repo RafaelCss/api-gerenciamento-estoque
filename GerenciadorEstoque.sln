@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{5E4C5E82-90D9-4994-B238-129983E3C5D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioc", "Ioc\Ioc.csproj", "{9EE6BC6D-F249-434A-8280-34C42932F8E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5E4C5E82-90D9-4994-B238-129983E3C5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E4C5E82-90D9-4994-B238-129983E3C5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E4C5E82-90D9-4994-B238-129983E3C5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE6BC6D-F249-434A-8280-34C42932F8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE6BC6D-F249-434A-8280-34C42932F8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE6BC6D-F249-434A-8280-34C42932F8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE6BC6D-F249-434A-8280-34C42932F8E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
