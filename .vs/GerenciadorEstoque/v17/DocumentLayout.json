@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Infra\\Metadado.cs",
               "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\Metadado.cs",
               "RelativeToolTip": "Infra\\Metadado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T01:12:04.696Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Dominio\\Metadado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T01:10:19.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T01:10:19.674Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Ioc\\Infra\\InfraConfiguracao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:51:21.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T00:51:21.143Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Ioc\\Dominio\\DominioConfiguracao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:49:49.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T00:49:49.946Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "GerenciadorEstoque.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:45:14.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T00:45:14.242Z"
             }
           ]
         }
