@@ -1,7 +1,4 @@
-﻿
-
-
-using Dominio.Entidades.Base;
+﻿using Dominio.Entidades.Base;
 
 namespace Dominio.Entidades.Root;
 
