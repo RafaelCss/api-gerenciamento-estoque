@@ -3,20 +3,18 @@ using Dominio.Entidades;
 using Dominio.Interface;
 using Dominio.Respostas;
 using MediatR;
+using Modelos.Models.Request.Produtos;
 
 namespace Dominio.Comandos.Cadastro;
 
 public class CadastrarProdutoComando : Comando<Guid>
 {
-    public string Nome { get; private set; }
-    public string Descricao { get; private set; }
-    public string CodigoBarras { get; private set; }
+    
+    public ProdutosRequestModel ProdutosRequest { get; private set; }
 
-    public CadastrarProdutoComando(string nome , string decricao, string codigoBarras)
+    public CadastrarProdutoComando(ProdutosRequestModel produtosRequest)
     {
-        Nome = nome;
-        CodigoBarras = codigoBarras;
-        Descricao = decricao;
+        ProdutosRequest = produtosRequest;
     }
 
 
@@ -30,12 +28,10 @@ public class CadastrarProdutoComando : Comando<Guid>
     /// <returns>Retorna a resposta do comando.</returns>
     public static async Task<Resposta<Guid>> ExecutarAsync(
         IMediator mediator ,
-        string nome ,
-        string decricao ,
-        string codigoBarras ,
+        ProdutosRequestModel produtosRequest,
         CancellationToken cancellationToken)
     {
-        var comando = new CadastrarProdutoComando(nome , decricao, codigoBarras);
+        var comando = new CadastrarProdutoComando(produtosRequest);
         return await mediator.Send(comando , cancellationToken);
     }
 }
@@ -55,7 +51,7 @@ public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoCom
             return new Resposta<Guid>(request.Notifications);
 
 
-        var produto = new Produto(request.Nome,request.Descricao, request.CodigoBarras);
+        var produto = new Produto(request.ProdutosRequest.Nome, request.ProdutosRequest.Descricao, request.ProdutosRequest.CodigoBarras);
 
         if (!produto.IsValid)
         {
@@ -67,7 +63,7 @@ public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoCom
         if (await _unitOfWork.SalvarAsync(cancellationToken) < 0)
         {
             produto.AddNotification("Commit" , "Erro ao salvar os dados no banco.");
-            return new Resposta<Guid>(produto.Notifications);
+              return new Resposta<Guid>(produto.Notifications);
         }
 
         return new Resposta<Guid>(produto.Id);

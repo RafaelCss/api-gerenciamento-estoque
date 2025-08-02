@@ -1,8 +1,9 @@
 ﻿
-using Api.Models.Request.Produtos;
+
 using Dominio.Comandos.Cadastro;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Modelos.Models.Request.Produtos;
 
 namespace Api.Controllers;
 
@@ -20,7 +21,7 @@ public class ProdutoController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CadastrarProdutosAsync([FromBody] ProdutosRequestModel produtosRequest,CancellationToken cancellationToken)
     {
-        var resposta = await CadastrarProdutoComando.ExecutarAsync(_mediator , produtosRequest.Nome, produtosRequest.Descricao, produtosRequest.CodigoBarras , cancellationToken);
+        var resposta = await CadastrarProdutoComando.ExecutarAsync(_mediator ,  produtosRequest, cancellationToken);
         return Ok(resposta);
     }
 }

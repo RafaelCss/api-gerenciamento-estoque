@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Include="Entidades\Root\AggregateRoot.cs" />
+    <ProjectReference Include="..\Modelos\Modelos.csproj" />
   </ItemGroup>
 
   <ItemGroup>
