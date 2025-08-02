@@ -3,10 +3,10 @@ using Flunt.Validations;
 
 namespace Dominio.Entidades;
 
-public class Produto : AggregateRoot
+public sealed class Produto : AggregateRoot
 {
     // construtor ef
-    public Produto()
+    protected Produto()
     {
     }
 
@@ -26,7 +26,7 @@ public class Produto : AggregateRoot
     {
         Nome = nome;
 
-        AddNotifications(new Contract<Produto>()
+        AddNotifications(Contrato()
             .Requires()
             .IsNotNullOrWhiteSpace(Nome , nameof(Nome) , "O nome não pode ser vazio.")
         );
@@ -51,7 +51,7 @@ public class Produto : AggregateRoot
     {
 
         CodigoBarras = codigoBarras;
-        AddNotifications(new Contract<Produto>()
+        AddNotifications(Contrato()
             .Requires()
             .IsNotNullOrWhiteSpace(CodigoBarras , nameof(CodigoBarras) , "O Codigo de Barras não pode ser vazio.")
         );

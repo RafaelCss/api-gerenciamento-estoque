@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\api-gerenciamento-estoque\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|c:\\projetos\\api-gerenciamento-estoque\\ioc\\dominio\\dominioconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|solutionrelative:ioc\\dominio\\dominioconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DominioConfiguracao.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Dominio\\DominioConfiguracao.cs",
-              "RelativeDocumentMoniker": "Ioc\\Dominio\\DominioConfiguracao.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Dominio\\DominioConfiguracao.cs",
-              "RelativeToolTip": "Ioc\\Dominio\\DominioConfiguracao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:49:49.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Program.cs",
-              "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\Program.cs",
-              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Program.cs",
-              "RelativeToolTip": "GerenciadorEstoque.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:45:14.242Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

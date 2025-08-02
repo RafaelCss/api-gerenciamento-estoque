@@ -12,7 +12,7 @@ public class EntityDateInterceptor : SaveChangesInterceptor
         InterceptionResult<int> result)
     {
         AtualizarDatas(eventData);
-        return base.SavingChanges(eventData , result); // Mantém o retorno como InterceptionResult<int>
+        return base.SavingChanges(eventData , result);
     }
 
     public override ValueTask<InterceptionResult<int>> SavingChangesAsync(
@@ -21,7 +21,7 @@ public class EntityDateInterceptor : SaveChangesInterceptor
         CancellationToken cancellationToken = default)
     {
         AtualizarDatas(eventData);
-        return base.SavingChangesAsync(eventData , result , cancellationToken); // Mantém o retorno como InterceptionResult<int>
+        return base.SavingChangesAsync(eventData , result , cancellationToken);
     }
 
     private void AtualizarDatas(DbContextEventData eventData)

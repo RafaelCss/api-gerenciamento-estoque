@@ -52,22 +52,22 @@ public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoCom
     public override async Task<Resposta<Guid>> Handle(CadastrarProdutoComando request , CancellationToken cancellationToken)
     {
         if (!request.IsValid)
-            return CriarResposta(request.Notifications);
+            return new Resposta<Guid>(request.Notifications);
 
 
         var produto = new Produto(request.Nome,request.Descricao, request.CodigoBarras);
 
         if (!produto.IsValid)
         {
-            return CriarResposta(produto.Notifications);
+            return new Resposta<Guid>(produto.Notifications);
         }
 
         await _unitOfWork.Repositorio<Produto>().AddAsync(produto);
 
         if (await _unitOfWork.SalvarAsync(cancellationToken) < 0)
         {
-            request.AddNotification("Commit" , "Erro ao salvar os dados no banco.");
-            return CriarResposta(request.Notifications);
+            produto.AddNotification("Commit" , "Erro ao salvar os dados no banco.");
+            return new Resposta<Guid>(produto.Notifications);
         }
 
         return new Resposta<Guid>(produto.Id);

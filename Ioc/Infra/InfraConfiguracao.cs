@@ -24,18 +24,12 @@ public static class InfraConfiguracao
             .EnableSensitiveDataLogging(false)
             .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
         );
-
-
-        // Criar o banco automaticamente
         using (var serviceProvider = services.BuildServiceProvider())
         {
             using (var scope = serviceProvider.CreateScope())
             {
                 var dbContext = scope.ServiceProvider.GetRequiredService<AppContexto>();
-
-                // Usa EnsureCreated ou Migrate, dependendo do cenário
-                // dbContext.Database.EnsureCreated(); // Para cenários simples (não recomendado com migrações)
-                dbContext.Database.Migrate(); // Aplica migrações pendentes
+                dbContext.Database.Migrate();
             }
         }
 
