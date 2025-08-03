@@ -1,6 +1,7 @@
 ﻿using Dominio.Interface;
 using Infra.Configuracao;
 using Infra.EF.Context;
+using Infra.RabbitMQ;
 using Infra.Repositorio;
 using Infra.UOW;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ public static class InfraConfiguracao
     {
         services.AddScoped<EntityDateInterceptor>();
         services.AddScoped<IUnitOfWork , UnitOfWork>();
+        services.AddRabbitMQProducer(configuration);
         services.AddScoped(typeof(IContextoLeitura<>) , typeof(ContextoLeitura<>));
         services.AddScoped(typeof(IRepositorio<>) , typeof(Repositorio<>));
         services.AddDbContext<AppContexto>(options =>

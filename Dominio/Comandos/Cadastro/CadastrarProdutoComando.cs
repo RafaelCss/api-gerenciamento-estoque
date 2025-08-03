@@ -1,7 +1,10 @@
-﻿using Dominio.Comandos.ComandoBase;
+﻿using System.Threading.Channels;
+using Dominio.Comandos.ComandoBase;
 using Dominio.Entidades;
+using Dominio.Eventos;
 using Dominio.Interface;
 using Dominio.Respostas;
+using MassTransit;
 using MediatR;
 using Modelos.Models.Request.Produtos;
 
@@ -39,10 +42,11 @@ public class CadastrarProdutoComando : Comando<Guid>
 public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoComando , Guid>
 {
     private readonly IUnitOfWork _unitOfWork;
-
-    public CadastrarProdutoComandoHandler(IUnitOfWork unitOfWork)
+    private readonly IBus _bus;
+    public CadastrarProdutoComandoHandler(IUnitOfWork unitOfWork, IBus bus)
     {
         _unitOfWork = unitOfWork;
+        _bus = bus;
     }
 
     public override async Task<Resposta<Guid>> Handle(CadastrarProdutoComando request , CancellationToken cancellationToken)
@@ -50,8 +54,9 @@ public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoCom
         if (!request.IsValid)
             return new Resposta<Guid>(request.Notifications);
 
-
         var produto = new Produto(request.ProdutosRequest.Nome, request.ProdutosRequest.Descricao, request.ProdutosRequest.CodigoBarras);
+
+        await _bus.Publish<ProdutoCriadoEvento>(new ProdutoCriadoEvento(produto.Nome), cancellationToken);
 
         if (!produto.IsValid)
         {
@@ -62,7 +67,7 @@ public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoCom
 
         if (await _unitOfWork.SalvarAsync(cancellationToken) < 0)
         {
-            produto.AddNotification("Commit" , "Erro ao salvar os dados no banco.");
+             produto.AddNotification("Commit" , "Erro ao salvar os dados no banco.");
               return new Resposta<Guid>(produto.Notifications);
         }
 

@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\api-gerenciamento-estoque\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\consumer\\produtoconsumerevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\consumer\\produtoconsumerevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\comandos\\cadastro\\cadastrarprodutocomando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\comandos\\cadastro\\cadastrarprodutocomando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\masstransit\\rabbitmqservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\masstransit\\rabbitmqservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|c:\\projetos\\api-gerenciamento-estoque\\dominio\\eventos\\produtocriadoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DA92F3-B519-4A04-8763-6A6A1A294301}|Dominio\\Dominio.csproj|solutionrelative:dominio\\eventos\\produtocriadoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|c:\\projetos\\api-gerenciamento-estoque\\ioc\\infra\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|solutionrelative:ioc\\infra\\infraconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\infraconfig\\ientitydateinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\infraconfig\\ientitydateinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\infraconfig\\entitydateinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\infraconfig\\entitydateinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoCriadoEvento.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Eventos\\ProdutoCriadoEvento.cs",
+              "RelativeDocumentMoniker": "Dominio\\Eventos\\ProdutoCriadoEvento.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Eventos\\ProdutoCriadoEvento.cs",
+              "RelativeToolTip": "Dominio\\Eventos\\ProdutoCriadoEvento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T14:36:09.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoConsumerEvento.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Consumer\\ProdutoConsumerEvento.cs",
+              "RelativeDocumentMoniker": "Dominio\\Consumer\\ProdutoConsumerEvento.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Consumer\\ProdutoConsumerEvento.cs*",
+              "RelativeToolTip": "Dominio\\Consumer\\ProdutoConsumerEvento.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T01:27:28.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastrarProdutoComando.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Comandos\\Cadastro\\CadastrarProdutoComando.cs",
+              "RelativeDocumentMoniker": "Dominio\\Comandos\\Cadastro\\CadastrarProdutoComando.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Dominio\\Comandos\\Cadastro\\CadastrarProdutoComando.cs",
+              "RelativeToolTip": "Dominio\\Comandos\\Cadastro\\CadastrarProdutoComando.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T00:52:21.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InfraConfiguracao.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Infra\\InfraConfiguracao.cs",
+              "RelativeDocumentMoniker": "Ioc\\Infra\\InfraConfiguracao.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Infra\\InfraConfiguracao.cs",
+              "RelativeToolTip": "Ioc\\Infra\\InfraConfiguracao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T00:45:05.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEntityDateInterceptor.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\IEntityDateInterceptor.cs",
+              "RelativeDocumentMoniker": "Infra\\InfraConfig\\IEntityDateInterceptor.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\IEntityDateInterceptor.cs",
+              "RelativeToolTip": "Infra\\InfraConfig\\IEntityDateInterceptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T00:44:51.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntityDateInterceptor.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\EntityDateInterceptor.cs",
+              "RelativeDocumentMoniker": "Infra\\InfraConfig\\EntityDateInterceptor.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\InfraConfig\\EntityDateInterceptor.cs",
+              "RelativeToolTip": "Infra\\InfraConfig\\EntityDateInterceptor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T00:44:49.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RabbitMQServices.cs",
+              "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\MassTransit\\RabbitMQServices.cs",
+              "RelativeDocumentMoniker": "Infra\\MassTransit\\RabbitMQServices.cs",
+              "ToolTip": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\MassTransit\\RabbitMQServices.cs",
+              "RelativeToolTip": "Infra\\MassTransit\\RabbitMQServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T00:37:55.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
