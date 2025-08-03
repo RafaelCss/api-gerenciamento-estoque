@@ -11,7 +11,19 @@ public static class RabbitMQServices
     {
         services.AddMassTransit(x =>
         {
-            x.AddConsumer<ProdutoConsumerEvento>(); 
+
+
+            // x.AddConsumer<ProdutoConsumerEvento>(); 
+
+            // Resgistra todos os consumidores de eventos que estão nas assemblies do domínio e infra
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies()
+                .Where(a =>
+                    !a.IsDynamic &&
+                    a.FullName != null &&
+                    (a.FullName.Contains("Dominio") || a.FullName.Contains("Infra")))
+                .ToArray();
+
+            x.AddConsumers(assemblies);
 
             x.UsingRabbitMq((context , cfg) =>
             {

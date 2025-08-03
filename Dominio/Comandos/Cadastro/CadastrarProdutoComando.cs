@@ -51,6 +51,8 @@ public class CadastrarProdutoComandoHandler : ComandoHandler<CadastrarProdutoCom
 
     public override async Task<Resposta<Guid>> Handle(CadastrarProdutoComando request , CancellationToken cancellationToken)
     {
+        await _bus.Publish<UsuarioLogadoEvento>(new UsuarioLogadoEvento("teste") , cancellationToken);
+
         if (!request.IsValid)
             return new Resposta<Guid>(request.Notifications);
 
