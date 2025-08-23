@@ -1,7 +1,4 @@
-﻿
-using System.Reflection;
-
-
+﻿using System.Reflection;
 namespace Dominio
 {
     public static class Metadado

@@ -16,14 +16,7 @@ public static class RabbitMQServices
             // x.AddConsumer<ProdutoConsumerEvento>(); 
 
             // Resgistra todos os consumidores de eventos que estão nas assemblies do domínio e infra
-            var assemblies = AppDomain.CurrentDomain.GetAssemblies()
-                .Where(a =>
-                    !a.IsDynamic &&
-                    a.FullName != null &&
-                    (a.FullName.Contains("Dominio") || a.FullName.Contains("Infra")))
-                .ToArray();
-
-            x.AddConsumers(assemblies);
+            x.AddConsumers(Dominio.Metadado.GetAssembly());
 
             x.UsingRabbitMq((context , cfg) =>
             {
