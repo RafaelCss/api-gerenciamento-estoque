@@ -5,10 +5,10 @@ namespace Dominio.Entidades;
 
 public class CampoPersonalizado :AggregateRoot
 {
-    public string? NomeInterno { get; set; }     // "nomeVendedor"
-    public string? Rotulo { get; set; }          // "Nome do Vendedor"
-    public string? Tipo { get; set; }            // "string", "int", "bool", "date", etc.
-    public string? NomeEntidade { get; set; }    // "Produto", "Cliente", etc.
+    public string? NomeInterno { get; set; }
+    public string? Rotulo { get; set; }
+    public string? Tipo { get; set; }       
+    public string? NomeEntidade { get; set; } 
     public bool Obrigatorio { get; set; }
 
     // Ef
