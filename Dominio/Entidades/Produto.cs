@@ -5,11 +5,11 @@ namespace Dominio.Entidades;
 
 public sealed class Produto : AggregateRoot
 {
-    // construtor ef
-    protected Produto()
+   #region Construtor EF
+    private Produto()
     {
     }
-
+    #endregion
     public Produto(string nome , string descricao , string codigoBarras)
     {
         AdicionarNomeProduto(nome);
@@ -17,9 +17,9 @@ public sealed class Produto : AggregateRoot
         AdicionarCodigoBarrasProduto(codigoBarras);
     }
 
-    public string Nome { get; private set; }
-    public string Descricao { get; private set; }
-    public string CodigoBarras { get; private set; }
+    public string? Nome { get; private set; }
+    public string? Descricao { get; private set; }
+    public string? CodigoBarras { get; private set; }
 
 
     public Produto AdicionarNomeProduto(string nome)

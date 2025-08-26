@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Projetos\\api-gerenciamento-estoque\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|c:\\projetos\\api-gerenciamento-estoque\\infra\\masstransit\\rabbitmqservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E4C5E82-90D9-4994-B238-129983E3C5D7}|Infra\\Infra.csproj|solutionrelative:infra\\masstransit\\rabbitmqservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|c:\\projetos\\api-gerenciamento-estoque\\ioc\\dominio\\dominioconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EE6BC6D-F249-434A-8280-34C42932F8E8}|Ioc\\Ioc.csproj|solutionrelative:ioc\\dominio\\dominioconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|c:\\projetos\\api-gerenciamento-estoque\\gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCAE555F-CF63-49EE-B251-EEE7BCE5B5FD}|GerenciadorEstoque.Api\\Api.csproj|solutionrelative:gerenciadorestoque.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
@@ -38,11 +38,12 @@
               "RelativeToolTip": "GerenciadorEstoque.Api\\Controllers\\ProdutoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T22:09:16.214Z"
+              "WhenOpened": "2025-08-03T22:09:16.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DominioConfiguracao.cs",
               "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Dominio\\DominioConfiguracao.cs",
               "RelativeDocumentMoniker": "Ioc\\Dominio\\DominioConfiguracao.cs",
@@ -54,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RabbitMQServices.cs",
               "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Infra\\MassTransit\\RabbitMQServices.cs",
               "RelativeDocumentMoniker": "Infra\\MassTransit\\RabbitMQServices.cs",
@@ -67,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InfraConfiguracao.cs",
               "DocumentMoniker": "C:\\Projetos\\api-gerenciamento-estoque\\Ioc\\Infra\\InfraConfiguracao.cs",
               "RelativeDocumentMoniker": "Ioc\\Infra\\InfraConfiguracao.cs",

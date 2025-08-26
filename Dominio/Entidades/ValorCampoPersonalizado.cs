@@ -1,10 +1,24 @@
-﻿namespace Dominio.Entidades;
+﻿using Dominio.Entidades.Base;
 
-public class ValorCampoPersonalizado
+namespace Dominio.Entidades;
+
+public class ValorCampoPersonalizado: Entidade
 {
-    public int CampoPersonalizadoId { get; set; }
-    public CampoPersonalizado Campo { get; set; }
-    public int EntidadeId { get; set; }      
-    public string NomeEntidade { get; set; }    
+    #region Construtor EF
+    protected ValorCampoPersonalizado()
+    {
+    }
+    #endregion
+    public virtual CampoPersonalizado? Campo { get; set; }
+    public Guid CampoId { get; set; }
+    public string? NomeEntidade { get; set; }
     public decimal Valor { get; set; }
+
+    public ValorCampoPersonalizado(CampoPersonalizado campoPersonalizado, Guid campoId, string nomeEntidade, decimal valor)
+    {
+        Campo = campoPersonalizado;
+        CampoId = campoId;
+        NomeEntidade = nomeEntidade;
+        Valor = valor;
+    }
 }
