@@ -1,5 +1,4 @@
 ﻿using Dominio.Entidades.Root;
-using Flunt.Validations;
 
 namespace Dominio.Entidades;
 
